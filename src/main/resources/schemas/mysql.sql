@@ -1,0 +1,7 @@
+CREATE TABLE ACCOUNT_DERBY_TABLE(
+     ID_ACCOUNT INT  PRIMARY KEY ,
+     accountFirstName VARCHAR(50),
+     accountLastName VARCHAR(50));
+
+
+

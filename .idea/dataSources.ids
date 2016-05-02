@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - springbootdb@localhost" uuid="886ee120-5dbe-4996-823e-19e57737fb30">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="springbootdb"/>
+    </database-model>
+  </data-source>
+</component>

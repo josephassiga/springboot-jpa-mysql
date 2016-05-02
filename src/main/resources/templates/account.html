@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<title>Account </title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  crossorigin="anonymous"></link>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" crossorigin="anonymous"></link>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1> CREATE ACCOUNT HERE: </h1>
+<form method="POST" th:action="@{/account}" th:object="${account}">
+    <table>
+        <tbody>
+          <tr>
+               <td> <label>Account First Name :</label></td>
+               <td> <input th:field="*{accountFirstName}"></input> </td>
+          </tr>
+          <tr>
+              <td> <label>Account Last Name :</label></td>
+              <td> <input th:field="*{accountLastName}"></input> </td>
+          </tr>
+          <tr>
+              <td> <input type="submit" value="Create Account"></input></td>
+          </tr>
+        </tbody>
+
+    </table>
+</form>
+<div th:if="${not #lists.isEmpty(accounts)}">
+    <table>
+        <thead>
+           <tr>
+               <td> ACCOUNT ID</td>
+               <td> ACCOUNT FISRT NAME</td>
+               <td> ACCOUNT LAST NAME</td>
+           </tr>
+        </thead>
+        <tbody th:each="account : ${ accounts}">
+          <tr>
+              <td th:text="${account.id}"></td>
+              <td th:text="${account.accountFirstName}"></td>
+              <td th:text="${account.accountLastName}"></td>
+          </tr>
+        </tbody>
+
+    </table>
+
+</div>
+</body>
+</html>
