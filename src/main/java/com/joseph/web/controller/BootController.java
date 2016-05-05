@@ -1,7 +1,8 @@
 package com.joseph.web.controller;
 
-import com.joseph.web.dao.AccountRepository;
+import com.joseph.web.form.AccountForm;
 import com.joseph.web.model.Account;
+import com.joseph.web.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,27 +17,25 @@ import java.util.List;
 @Controller
 public class BootController {
 
-    private final AccountRepository accountRepository;
-
     @Autowired
-    public BootController(final AccountRepository accountRepository) {
-        this.accountRepository = accountRepository;
-    }
+    private AccountService accountService;
+
 
     @RequestMapping(value="/account",method = RequestMethod.GET)
     public String createAccount(final Model model)
     {
-        model.addAttribute("account",new Account());
+        model.addAttribute("accountForm",new AccountForm());
         return "account";
     }
 
     @RequestMapping(value="/account",method = RequestMethod.POST)
-    public String createAccount(final Model model,final Account account)
+    public String createAccount(final Model model,final AccountForm accountForm)
     {
-        final Account accounCreated = accountRepository.save(account);
-        final List<Account> accounts = accountRepository.findAll();
+        final Account account = new Account(accountForm.getAccountFirstName(),accountForm.getAccountLastName());
+        final Account accounCreated = accountService.saveAccount(account);
+        final List<Account> accounts = accountService.findAllAccount();
         model.addAttribute("accounts",accounts);
-        model.addAttribute("account",new Account());
+        model.addAttribute("accountForm",new AccountForm());
         return "account";
     }
 }

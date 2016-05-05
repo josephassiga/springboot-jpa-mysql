@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan({"com.joseph.web.controller,com.joseph.web.model,com.joseph.web.exception"})
+@ComponentScan({"com.joseph.web.controller,com.joseph.web.model,com.joseph.web.exception,com.joseph.web.service"})
 @EnableJpaRepositories(basePackageClasses = AccountRepository.class)
 @EntityScan(basePackageClasses = Account.class)
 public class SpringMvcApplication {

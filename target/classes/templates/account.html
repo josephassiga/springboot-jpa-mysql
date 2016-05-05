@@ -3,40 +3,37 @@
 <head>
 <meta charset="UTF-8"></meta>
 <title>Account </title>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  crossorigin="anonymous"></link>
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" crossorigin="anonymous"></link>
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
   <h1> CREATE ACCOUNT HERE: </h1>
-<form method="POST" th:action="@{/account}" th:object="${account}">
+<form method="POST" th:action="@{/account}" th:object="${accountForm}" role="form" class="form-vertical">
     <table>
         <tbody>
           <tr>
+              <div class="form-group">
                <td> <label>Account First Name :</label></td>
-               <td> <input th:field="*{accountFirstName}"></input> </td>
+               <td> <input class="form-control" th:field="*{accountFirstName}" required="required"></input> </td>
+                  </div>
           </tr>
           <tr>
+              <div class="form-group">
               <td> <label>Account Last Name :</label></td>
-              <td> <input th:field="*{accountLastName}"></input> </td>
+              <td> <input class="form-control" th:field="*{accountLastName}" required="required"></input> </td>
+              </div>
           </tr>
           <tr>
-              <td> <input type="submit" value="Create Account"></input></td>
+              <td> <input type="submit" value="Create Account" class="btn btn-primary"></input></td>
           </tr>
         </tbody>
 
     </table>
 </form>
 <div th:if="${not #lists.isEmpty(accounts)}">
-    <table>
+    <table class="table table-hover">
         <thead>
            <tr>
                <td> ACCOUNT ID</td>

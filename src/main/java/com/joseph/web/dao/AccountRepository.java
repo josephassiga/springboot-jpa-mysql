@@ -15,6 +15,5 @@ public interface AccountRepository extends JpaRepository<Account,Long> {
     Account findByAccountLastName(final String accountLastName);
     Account findByAccountFirstName(final String accountFirstName);
     Account findByAccountFirstNameAndAccountLastName(final String accountFirstName,final String accountLastName);
-    Account save(final Account account);
 
 }
