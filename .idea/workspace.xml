@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="404f48fe-68b2-4d3f-91ad-1abeb579d71f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/schemas/mysql.sql" afterPath="$PROJECT_DIR$/target/classes/schemas/mysql.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
     </list>
     <ignored path="SpringBootMVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="account.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -156,12 +156,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="7" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/joseph/web/controller/BookMarkRestController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/schemas/derby.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/joseph/web/controller/BootRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/joseph/web/form/AccountForm.java" />
@@ -211,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/joseph/web/model/Account.java" />
         <option value="$PROJECT_DIR$/src/main/resources/schemas/mysql.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/account.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
       </list>
     </option>
   </component>
@@ -1199,7 +1201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462007978787</updated>
-      <workItem from="1462007981492" duration="28169000" />
+      <workItem from="1462007981492" duration="29855000" />
     </task>
     <task id="LOCAL-00001" summary="Spring JPA Mysql">
       <created>1462409083040</created>
@@ -1212,7 +1214,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28169000" />
+    <option name="totallyTimeSpent" value="29855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1258,6 +1260,7 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
+    <option name="LONG_EDGES_VISIBLE" value="true" />
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
@@ -1516,19 +1519,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/account.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
