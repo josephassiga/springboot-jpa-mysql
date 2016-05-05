@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="404f48fe-68b2-4d3f-91ad-1abeb579d71f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/joseph/web/form/AccountForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/joseph/web/service/AccountService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/joseph/web/service/impl/DefaultAccountService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/joseph/web/config/SpringMvcApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/joseph/web/config/SpringMvcApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/joseph/web/controller/BootController.class" afterPath="$PROJECT_DIR$/target/classes/com/joseph/web/controller/BootController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/joseph/web/dao/AccountRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/joseph/web/dao/AccountRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/joseph/web/model/Account.class" afterPath="$PROJECT_DIR$/target/classes/com/joseph/web/model/Account.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/springmvc-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/springmvc-0.0.1-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/joseph/web/config/SpringMvcApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/joseph/web/config/SpringMvcApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/joseph/web/controller/BootController.java" afterPath="$PROJECT_DIR$/src/main/java/com/joseph/web/controller/BootController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/joseph/web/dao/AccountRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/joseph/web/dao/AccountRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/joseph/web/model/Account.java" afterPath="$PROJECT_DIR$/src/main/java/com/joseph/web/model/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/schemas/mysql.sql" afterPath="$PROJECT_DIR$/src/main/resources/schemas/mysql.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/account.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/account.html" afterPath="$PROJECT_DIR$/target/classes/templates/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.joseph.web.SpringMvcApplicationTests.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.joseph.web.SpringMvcApplicationTests.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/schemas/mysql.sql" afterPath="$PROJECT_DIR$/target/classes/schemas/mysql.sql" />
     </list>
     <ignored path="SpringBootMVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1218,12 +1199,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462007978787</updated>
-      <workItem from="1462007981492" duration="28072000" />
+      <workItem from="1462007981492" duration="28169000" />
     </task>
+    <task id="LOCAL-00001" summary="Spring JPA Mysql">
+      <created>1462409083040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1462409083040</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28072000" />
+    <option name="totallyTimeSpent" value="28169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1278,6 +1267,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring JPA Mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring JPA Mysql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
