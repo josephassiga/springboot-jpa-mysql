@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Spring Boot MVC</title>
@@ -15,9 +17,12 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-</head>
-<body>
-<h1>Spring Boot MVC for Life.</h1>
 
+</head>
+<body class="container" style="margin-top: 300px">
+<div class="panel panel-primary"">
+     <div class="panel-heading"> SPRING BOOT FEATURES </div>
+     <div class="panel-footer"><a href="/account" th:href="@{/account}"><strong>Spring Boot JPA MYSQL</strong></a></div>
+</div>
 </body>
 </html>
